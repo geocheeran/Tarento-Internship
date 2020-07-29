@@ -1,3 +1,20 @@
+// Program 2:
+// - Accept a String input
+// - Accept a String of valid chars
+// - Remove all the characters that are not present in the valid chars from the input string
+// - Print the cleansed String and the count of characters removed
+
+// Eg. If the String input is 
+// The name of my dog is #2#Tiger
+// and the valid chars is abcdefghijklmnopqrstuvwxyz 123
+// then the output should be as below
+// The name of my dog is Tiger
+// 2 # was removed
+// 1 2 was removed
+
+
+
+
 #include <stdio.h>
 int main() {
    char line[150];
